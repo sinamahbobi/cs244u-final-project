@@ -25,6 +25,8 @@ input_lyrics1.txt (Sam Smith's Too Good at Goodbye song) is an input lyric can b
 
 output.json is the expected output of the TF-IDF RS after using the provided input in the main script.
 
+output2.json is the expected output of the PV-DM RS after using the provided input in the main script.
+
 --------------------------------------------------------------------------------------
 
 TO RUN THE MAIN SCRIPT:
@@ -33,5 +35,5 @@ TO RUN THE MAIN SCRIPT:
 2. Using the Terminal, make sure you are in the correct folder (i.e. cd /Users/Name/xcs244u)
 3. Run this command: python3 main_tfidf.py final_lyrics.csv input_lyrics1.txt WhateverYouWantToNameYourOutputFile.json
 -  main_tfidf.py is also interchangable with main_pvdm.py
-5. If running the TF-IDF RS, this should output the same recommended song as in the output.json file. The PV-DM outputs a different recommended song.
+5. If running the TF-IDF RS, this should output the same recommended song as in the output.json file. The PV-DM outputs a different recommended song (output2.json).
 6. To try other input lyrics, simply create txt files of just the lyrics and use that instead of input_lyrics1.txt in the command.
